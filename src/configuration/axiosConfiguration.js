@@ -2,8 +2,8 @@ import axios from 'axios'
 
 
 const axiosConfiguration = axios.create({
-    baseURL: process.env.REAC_APP_BASE_URL ||
-     'http://localhost:4000/api/v1/'
+    baseURL: process.env.REACT_APP_BASE_URL ||
+     'https://movies-back-end-0pxp.onrender.com/api/v1/'
 })
 
 export {
